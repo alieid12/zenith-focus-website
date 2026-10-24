@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://alieid12.github.io/zenith-focus-website/sitemap.xml
