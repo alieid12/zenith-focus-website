@@ -57,3 +57,32 @@ Period queried: 2026-10-24 to 2026-11-05.
 3. Monitor App Store reviews and reply professionally where appropriate.
 4. Improve App Store product-page conversion and track campaign/source links.
 5. Continue bilingual SEO only where a distinct search intent and useful content justify a new page.
+
+## 2026-11-05 — Distribution research and website quality fix
+
+### Free directory screening
+- Reviewed AppLauncher. It offers a free queue, but its published guidelines require a registered domain the developer controls; free-hosting subdomains such as GitHub Pages are not accepted as the primary site. Zenith currently uses a GitHub Pages subdomain, so no submission was made.
+- Reviewed NativeShelf. It is a relevant Apple-platform directory and offers a free listing, but the free tier requires a badge on the website and the submit page required login during inspection. No submission was made and no badge was added.
+- Reviewed Launch Indie Apps. Its current Listed plan is paid ($5 launch price shown), so it does not meet the $0 budget. No purchase or submission was made.
+- These findings are screening, not traffic guarantees. Prioritize directories where free submission is genuinely available and terms do not require a paid placement or unwanted site badge.
+
+### Website markup repair
+- Found malformed nested `<article>` elements in both English and Arabic guide directory pages around the Deep Work, Study Routine and Time Blocking cards.
+- Fixed the missing closing `</article>` tags in:
+  - `guides/index.html`
+  - `ar/guides/index.html`
+- Changes committed to main:
+  - English: `9fd76df8c75ecf9fc314ef6e83608aec9397f7ce`
+  - Arabic: `f9cd21a2d99cb54904a1b673ebb449c03f89e8de`
+- Follow-up: verify the live GitHub Pages render and test guide links after deployment.
+
+### Campaign tracking
+- Use distinct App Store campaign tokens for future external channels rather than reusing the website campaign link. Example for a Saudi student-community campaign:
+  `https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139?ct=saudi_student_community&mt=8`
+- This is a prepared tracking URL, not yet distributed. Track its App Store campaign reporting after enough activity.
+
+### Next actions
+1. Check live deployment and validate both guide directories on mobile.
+2. Find a free iOS-specific directory that does not require a paid placement or site badge; submit only if eligibility and form requirements fit.
+3. Continue relevant community participation only where promotion is permitted; contribute useful study advice rather than dropping unsolicited app links.
+4. Refresh App Store download and TikTok post analytics when new data becomes available.
