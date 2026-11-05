@@ -62,7 +62,9 @@ Internal planning document. Do not publish this as a keyword-stuffed public page
 - how to study when tired
 - how to avoid procrastination while studying
 - how to study at home
-- how to focus in a noisy environment
+- how to study in a noisy environment
+- how to focus in a noisy room
+- how to study when roommates or family are noisy
 - how to take effective study breaks
 - how many hours should students study
 - study habits for university students
@@ -187,11 +189,16 @@ Internal planning document. Do not publish this as a keyword-stuffed public page
 - جلسات التركيز
 - أصوات للمذاكرة والتركيز
 - أصوات المطر للمذاكرة
+- كيف أذاكر في مكان صاخب
+- كيف أركز مع ضوضاء المنزل أو السكن
 - الضوضاء البنية للتركيز
 - عادات دراسية فعالة
 - الانضباط الذاتي للطلاب
 - إدارة الوقت للجامعة
 - التركيز وقت الاختبارات
+
+## Published 2026-11-05
+- How to Study in a Noisy Environment: a distinct search intent focused on speech distraction, sound masking and task choice. English and Arabic versions published in the same commit; evidence claims are qualified and linked to research.
 
 ## Recommended next content pages
 Prioritize by search intent and usefulness, not by raw keyword count:

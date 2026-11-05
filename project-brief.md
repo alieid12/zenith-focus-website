@@ -36,6 +36,16 @@ Operating principle: maximize qualified installs and retained users per dollar a
 - Existing Metricool media library contains app screenshots for the garden, timer, features and analytics.
 - App Store Connect download count last reported by owner: 21 on 2026-11-03. This is historical, not a current verified count.
 
+## Current distribution state — 2026-11-05
+- TikTok snapshot: 14 post rows, 1,787 views, 38 likes, 6 comments, 0 shares; Oct 29 remains the strongest post (399 views, 11 likes, 4 comments). These are reach metrics, not attributed installs.
+- Nov 5 “Can't focus in silence?” post is published; 15 future posts remain scheduled through Nov 22. One Nov 16 same-time collision was moved to Nov 17 18:00.
+- Get Indie Apps listing is publicly visible. AppBreakup is still in review. AppLauncher is blocked by GitHub Pages hosting. AppAgg correction drafts remain unsent; TryMy.App verification is pending.
+- New free-directory candidates: Indie App Catalog and StarterLaunch. NativeShelf requires a persistent website badge; no badge was added. No paid placements or external form submissions were made.
+- New bilingual guide: How to Study in a Noisy Environment / كيف تذاكر في بيئة صاخبة؟ Deployment must be verified before treating it as live.
+- Reddit is not connected. r/study's weekly self-promo thread is the only current Reddit route identified; Study Together prohibits promotion.
+- App Store download count last reported by owner remains 21 on Nov 3; this is historical, not a current verified count.
+- App Store Connect Marketing URL still needs updating to the current website on the next version submission.
+
 ## Growth strategy
 1. Improve conversion and trust: accurate store listing, clear value proposition, resolved bugs, review response, clear iOS availability.
 2. Acquire qualified attention: useful study/focus content, short-form video tests, Arabic + English, search-led guides and ethical community participation.
