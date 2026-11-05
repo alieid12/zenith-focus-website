@@ -41,10 +41,15 @@ Operating principle: maximize qualified installs and retained users per dollar a
 - Nov 5 “Can't focus in silence?” post is published; 15 future posts remain scheduled through Nov 22. One Nov 16 same-time collision was moved to Nov 17 18:00.
 - Get Indie Apps listing is publicly visible. AppBreakup is still in review. AppLauncher is blocked by GitHub Pages hosting. AppAgg correction drafts remain unsent; TryMy.App verification is pending.
 - New free-directory candidates: Indie App Catalog and StarterLaunch. NativeShelf requires a persistent website badge; no badge was added. No paid placements or external form submissions were made.
-- New bilingual guide: How to Study in a Noisy Environment / كيف تذاكر في بيئة صاخبة؟ Deployment must be verified before treating it as live.
+- New bilingual guide: How to Study in a Noisy Environment / كيف تذاكر في بيئة صاخبة؟ GitHub Pages workflow #104 succeeded for the new guide commit; the browser fetch tool could not independently render the public URLs, so visual verification remains limited.
 - Reddit is not connected. r/study's weekly self-promo thread is the only current Reddit route identified; Study Together prohibits promotion.
 - App Store download count last reported by owner remains 21 on Nov 3; this is historical, not a current verified count.
 - App Store Connect Marketing URL still needs updating to the current website on the next version submission.
+
+## Latest verified deployment
+- Commit: 23802741badc035d3e098f53ef42ac01d0c9fa48
+- GitHub Pages workflow #104: success — https://github.com/alieid12/zenith-focus-website/actions/runs/42020351788
+- Both English and Arabic noisy-environment guides are in the deployed repository and included in the 30-URL sitemap. Direct browser rendering was not independently verified.
 
 ## Growth strategy
 1. Improve conversion and trust: accurate store listing, clear value proposition, resolved bugs, review response, clear iOS availability.

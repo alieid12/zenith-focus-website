@@ -131,3 +131,33 @@ Period queried: 2026-10-24 to 2026-11-05.
 - Last owner-reported App Store download count remains 21 on Nov 3; no newer App Store Connect count is available in this workflow.
 - TikTok views are reach signals only. No click-to-install attribution was returned.
 - Budget remains $0. Do not use metered browser automation, buy a domain, pay for placements, top up credits, mass-email, or retry bounced addresses.
+
+
+### Deployment verification and ready-to-use copy
+- GitHub Pages workflow #104 succeeded for commit 23802741badc035d3e098f53ef42ac01d0c9fa48: https://github.com/alieid12/zenith-focus-website/actions/runs/42020351788
+- The deployed repository contains both bilingual noisy-environment guides and a 30-URL sitemap. The web fetch tool could not independently render the GitHub Pages URLs, so workflow success is verified but visual rendering was not separately inspected.
+- Indie App Catalog submission form: https://indieappcatalog.com/app/submit. It asks for the App Store URL; use the US storefront URL below. No price/payment step is shown. Not submitted.
+- StarterLaunch submission form: https://starterlaunch.net/submit. Use the US App Store URL, category Productivity, and the copy below; sign-in is required to publish. Not submitted.
+- US App Store URL for US-only directory forms: https://apps.apple.com/us/app/zenith-focus-timer-plant/id6763234139
+
+StarterLaunch copy:
+- Name: Zenith: Focus Timer & Plant
+- Tagline: A focus timer that turns completed sessions into a growing virtual garden.
+- Category: Productivity
+- Description: Zenith is a free iPhone and iPad focus timer for students and anyone building better focus habits. Start a focused session, use Strict Mode to make distractions less tempting, choose ambient focus sounds, and watch your virtual garden grow as you complete sessions. Track your sessions, streaks and weekly focus time.
+- Website: https://alieid12.github.io/zenith-focus-website/
+- Product URL: https://apps.apple.com/us/app/zenith-focus-timer-plant/id6763234139
+
+r/study weekly self-promo thread draft (Reddit is not connected; not posted):
+"I'm the developer of Zenith, a free iPhone and iPad focus timer that turns completed study sessions into a growing virtual garden. It includes Strict Mode, ambient focus sounds and session stats. I made it for students who want a simple way to start one focused block and see their progress build over time. If anyone tries it, I'd appreciate honest feedback on the first-session flow and whether Strict Mode feels useful. No pressure."
+Tracking URL: https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139?ct=reddit_study_thread&mt=8
+Only post in the weekly self-promo thread, one comment per user; do not post in the main feed.
+
+Permission-first Telegram message draft for @hdmdme (not sent):
+"السلام عليكم، أنا مطوّر تطبيق Zenith، مؤقّت تركيز مجاني للآيفون والآيباد يساعد الطلاب على تنظيم جلسات المذاكرة. فيه مؤقّت، Strict Mode، وأصوات تركيز، وحديقة افتراضية تنمو مع كل جلسة مكتملة. لاحظت أن قناتكم تهتم بطلاب الاختبارات. هل تسمحون بمشاركة مورد مجاني للطلاب عن تنظيم جلسات المذاكرة، مع رابط التطبيق، في منشور واحد فقط إذا كان مناسبًا لقواعد القناة؟ لا أبحث عن إعلان مدفوع ولا أريد إزعاج القناة. إذا كان هذا النوع من المشاركات غير مناسب، أتفهم ذلك تمامًا."
+Tracking URL: https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139?ct=saudi_exam_telegram&mt=8
+
+Creator DM draft for @faisaleducation (not sent):
+"أهلًا أستاذ فيصل، لاحظت محتواك عن القدرات والتحصيلي، وأعتقد أن جمهورك قد يستفيد من أداة بسيطة لتنظيم جلسات المذاكرة. أنا مطوّر Zenith، تطبيق مجاني للآيفون والآيباد يجمع مؤقّت تركيز مع Strict Mode وأصوات تركيز وحديقة افتراضية تنمو مع كل جلسة مكتملة. هل يناسبك أن أرسل لك رابطًا لتجربته؟ لا يوجد إعلان مدفوع أو التزام بالنشر؛ أبحث فقط عن رأيك الصريح، وإذا رأيت أنه مفيد يمكننا مناقشة مشاركة واحدة تناسب محتواك."
+
+No external directory form, Reddit post, Telegram DM or creator message was submitted in this run.
