@@ -29,6 +29,63 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offs
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://alieid12.github.io/zenith-focus-website/#organization","name":"Zenith","url":"https://alieid12.github.io/zenith-focus-website/","sameAs":["https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139","https://www.tiktok.com/@ayhie_12"]},{"@type":"WebSite","@id":"https://alieid12.github.io/zenith-focus-website/#website","url":"https://alieid12.github.io/zenith-focus-website/","name":"Zenith","inLanguage":["en","ar"],"publisher":{"@id":"https://alieid12.github.io/zenith-focus-website/#organization"}},{"@type":"MobileApplication","name":"Zenith: Focus Timer Plant","operatingSystem":"iOS, iPadOS","applicationCategory":"ProductivityApplication","isAccessibleForFree":true,"description":"A focus timer with a growing virtual garden, Strict Mode and ambient focus sounds.","image":"https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/07/ac/2307ac41-8fd8-f07e-7134-23dad0aca1b0/Screenshot_iPhone_17_Pro_Max_04-05-1448_AH_at_11.06.45_U202fAM.png/950x950bb.jpg","url":"https://alieid12.github.io/zenith-focus-website/","downloadUrl":"https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139","publisher":{"@id":"https://alieid12.github.io/zenith-focus-website/#organization"}}]}
 </script>
+<style id="zenith-polish-v1">
+/* Zenith visual refinement — Nov 2026 */
+:root{--zenith-glass:rgba(14,27,20,.78);--zenith-glow:rgba(186,219,168,.18);--zenith-ease:cubic-bezier(.22,.8,.22,1)}
+html{scroll-padding-top:100px}
+body{isolation:isolate;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 12% 34%,rgba(104,151,103,.09),transparent 32%),radial-gradient(ellipse at 88% 68%,rgba(186,219,168,.06),transparent 30%)}
+.nav{position:sticky;top:0;z-index:50;background:var(--zenith-glass);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(220,242,220,.1);padding-block:15px;transition:padding .3s var(--zenith-ease),background .3s}
+.brand{font-size:1.08rem;letter-spacing:.2em}
+.navlinks a{transition:color .2s,opacity .2s}
+.navlinks a:hover{color:var(--green);opacity:1}
+.navcta,.cta{position:relative;overflow:hidden;isolation:isolate;transition:transform .25s var(--zenith-ease),box-shadow .25s,background .25s}
+.navcta:after,.cta:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,transparent 20%,rgba(255,255,255,.28) 48%,transparent 72%);transform:translateX(-130%);transition:transform .65s var(--zenith-ease)}
+.navcta:hover:after,.cta:hover:after{transform:translateX(130%)}
+.navcta:hover,.cta:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(0,0,0,.28),0 0 0 5px var(--zenith-glow)}
+.secondary,.resource,.card{transition:transform .35s var(--zenith-ease),border-color .35s,background .35s,box-shadow .35s}
+.secondary:hover{border-color:var(--green);background:rgba(186,219,168,.07)}
+.hero{position:relative;min-height:650px;padding-block:clamp(58px,8vw,104px)}
+.hero h1{max-width:760px;text-wrap:balance;animation:zenith-rise .85s var(--zenith-ease) both}
+.hero .lead{line-height:1.75}
+.visual:before{animation:zenith-breathe 8s ease-in-out infinite}
+.shot{transform:rotate(2deg) translateY(0);transition:transform .65s var(--zenith-ease),box-shadow .65s}
+.visual:hover .shot{transform:rotate(0) translateY(-7px);box-shadow:0 42px 110px rgba(0,0,0,.55)}
+.float{animation:zenith-float 5s ease-in-out infinite;border-color:rgba(186,219,168,.24);backdrop-filter:blur(12px)}
+.trust{position:relative}
+.trust>div{padding:8px 12px}
+.trust strong{letter-spacing:.01em}
+.sectionhead,.head{max-width:760px}
+.sectionhead h2,.head h2{ text-wrap:balance}
+.card,.resource{position:relative;overflow:hidden}
+.card:before,.resource:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 100% 0%,rgba(186,219,168,.1),transparent 48%);opacity:.55;transition:opacity .35s}
+.card:hover,.resource:hover{transform:translateY(-7px);border-color:rgba(186,219,168,.55);box-shadow:0 22px 55px rgba(0,0,0,.22)}
+.card:hover:before,.resource:hover:before{opacity:1}
+.features{gap:17px}
+.card{min-height:190px}
+.garden{position:relative;overflow:hidden;box-shadow:inset 0 1px rgba(255,255,255,.04),0 25px 70px rgba(0,0,0,.16)}
+.garden:after{content:"";position:absolute;width:70%;height:1px;bottom:18%;background:linear-gradient(90deg,transparent,rgba(186,219,168,.3),transparent)}
+.garden span{animation:zenith-plant 4.5s ease-in-out infinite;transform-origin:bottom center}
+.garden span:nth-child(2){animation-delay:.45s}.garden span:nth-child(3){animation-delay:.9s}.garden span:nth-child(4){animation-delay:1.35s}
+.timerband,.band{box-shadow:inset 0 1px rgba(255,255,255,.05),0 22px 55px rgba(0,0,0,.12)}
+.bottom{position:relative;overflow:hidden;box-shadow:inset 0 1px rgba(255,255,255,.06),0 28px 80px rgba(0,0,0,.18)}
+.bottom:before{content:"";position:absolute;width:380px;height:380px;left:50%;top:-300px;transform:translateX(-50%);border-radius:50%;background:rgba(186,219,168,.15);filter:blur(45px);pointer-events:none}
+.bottom>*{position:relative}
+.faq details{transition:border-color .25s}
+.faq details[open] summary,details[open] summary{color:var(--green)}
+footer a{transition:opacity .2s}footer a:hover{opacity:.75}
+:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+.js-motion .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s var(--zenith-ease),transform .7s var(--zenith-ease)}
+.js-motion .reveal.is-visible{opacity:1;transform:translateY(0)}
+.js-motion .reveal[data-delay="1"]{transition-delay:.08s}.js-motion .reveal[data-delay="2"]{transition-delay:.16s}.js-motion .reveal[data-delay="3"]{transition-delay:.24s}
+@keyframes zenith-rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes zenith-breathe{0%,100%{transform:scale(.96);opacity:.75}50%{transform:scale(1.05);opacity:1}}
+@keyframes zenith-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes zenith-plant{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+@media(max-width:850px){.hero{min-height:0}.card{min-height:0}}
+@media(max-width:600px){.nav{padding-block:11px;gap:10px}.navlinks{gap:8px 12px}.hero{padding-block:48px 58px}.hero h1{letter-spacing:-.065em}.visual{overflow:visible}.float{right:-4px}.features{gap:12px}.card:hover,.resource:hover{transform:translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){.visual:before,.float,.garden span,.hero h1{animation:none!important}.js-motion .reveal{opacity:1;transform:none;transition:none}}
+</style>
 </head><body>
 <header class="wrap nav"><a class="brand" href="./">ZENITH<span>·</span></a><nav class="navlinks" aria-label="Main navigation"><a href="#features">Features</a><a href="#guides">Study guides</a><a href="focus-timer.html">Free timer</a><a href="ar/">العربية</a><a class="navcta" href="https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139?ct=website_home&mt=8">Get the app ↗</a></nav></header>
 <main><div class="wrap"><section class="hero"><div><div class="eyebrow">A calmer way to make progress</div><h1>Focus grows<br><em>here.</em></h1><p class="lead">A focus timer that turns showing up into something you can see. Build a steadier study and work routine, one session at a time.</p><div class="actions"><a class="cta" href="https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139?ct=website_home&mt=8">Get Zenith on the App Store ↗</a><a class="secondary" href="focus-timer.html">Try the free web timer</a></div><p class="micro">Free to download · Made for iPhone and iPad</p></div><div class="visual"><img class="shot" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/07/ac/2307ac41-8fd8-f07e-7134-23dad0aca1b0/Screenshot_iPhone_17_Pro_Max_04-05-1448_AH_at_11.06.45_U202fAM.png/950x950bb.jpg" alt="Zenith focus soundscapes with rain, forest, ocean and brown noise" width="950" height="950" fetchpriority="high"><div class="float"><strong>One session at a time</strong>Let consistency take root.</div></div></section>
@@ -40,4 +97,8 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offs
 <section class="faq"><div class="sectionhead"><div class="eyebrow">A few quick answers</div><h2>Frequently asked questions</h2></div><details><summary>What is Zenith?</summary><p>Zenith is an iPhone and iPad focus timer that turns completed sessions into progress in a growing virtual garden.</p></details><details><summary>Is Zenith a Pomodoro timer?</summary><p>Zenith is a focus timer that can support structured work sessions. The website also includes a free browser-based timer with common Pomodoro intervals.</p></details><details><summary>What does Strict Mode do?</summary><p>Strict Mode is designed to encourage commitment to a focus session and discourage leaving the timer.</p></details><details><summary>Does Zenith include focus sounds?</summary><p>Yes. Zenith includes ambient sound options to help create a calmer work environment.</p></details><details><summary>Is Zenith available on Android?</summary><p>Zenith is currently available for iPhone and iPad through the Apple App Store.</p></details><details><summary>Where can I learn about studying and concentration?</summary><p>Visit the <a href="guides/">Zenith learning library</a> for guides about focus, attention, Pomodoro, deep work, active recall and study planning.</p></details></section>
 <section class="bottom"><div class="eyebrow">Your next session can start small</div><h2>Make room for focus.</h2><p>Choose one task. Give it your attention. Let the progress add up.</p><a class="cta" href="https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139?ct=website_home&mt=8">Get Zenith — Free on the App Store ↗</a></section></div><section class="hero" aria-labelledby="zenith-app-seo"><h2 id="zenith-app-seo">Looking for a focus timer?</h2><p>Discover Zenith for iPhone: grow a virtual garden as you build a more consistent focus habit.</p><p><a href="focus-timer-app.html">Explore the Zenith focus timer</a></p></section>
 </main>
-<footer class="wrap"><span>© Zenith · Focus grows here.</span><span><a href="guides/">Study guides</a><a href="focus-timer.html">Free focus timer</a><a href="ar/">العربية</a><a href="https://www.tiktok.com/@ayhie_12">TikTok</a><a href="https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139?ct=website_home&mt=8">App Store</a></span></footer></body></html>
+<footer class="wrap"><span>© Zenith · Focus grows here.</span><span><a href="guides/">Study guides</a><a href="focus-timer.html">Free focus timer</a><a href="ar/">العربية</a><a href="https://www.tiktok.com/@ayhie_12">TikTok</a><a href="https://apps.apple.com/sa/app/zenith-focus-timer-plant/id6763234139?ct=website_home&mt=8">App Store</a></span></footer>
+<script id="zenith-motion-v1">
+(()=>{const reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(reduce)return;document.documentElement.classList.add('js-motion');const selectors='.hero>div,.trust>div,.sectionhead,.head,.card,.resource,.split>*,.garden,.timerband,.band,.bottom,.faq details';const nodes=[...document.querySelectorAll(selectors)];nodes.forEach((el,i)=>{el.classList.add('reveal');if(i%4)el.dataset.delay=String(i%4)});if(!('IntersectionObserver'in window)){nodes.forEach(el=>el.classList.add('is-visible'));return}const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.12,rootMargin:'0px 0px -35px 0px'});nodes.forEach(el=>observer.observe(el));})();
+</script>
+</body></html>
