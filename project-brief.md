@@ -63,3 +63,17 @@ Operating principle: maximize qualified installs and retained users per dollar a
 - Prefer video demonstrations and authentic use cases over repeated static feature lists when video assets are available.
 - Track views, likes, comments, shares, average watch time, completion rate, profile visits, link taps and attributed installs where available.
 - Treat social views as reach signals, not install attribution.
+
+
+## Current state — 2026-11-07
+- Metricool TikTok audit (Oct 24–Nov 6): 16 posts, 2,091 views, 42 likes, 6 comments, 0 shares. Oct 29 distraction hook leads with 401 views, 11 likes, 4 comments. Nov 7 Strict Mode post is published; fresh analytics for it are not yet available. Reach is not install attribution.
+- Schedule audit: 18 future TikTok posts pending through Nov 26. A Nov 12 10:00 collision was fixed by moving “Your Future Is Growing” to Nov 19 18:00; new post ID 419852948, UUID -748126821397216291. Do not duplicate scheduled content.
+- FindUpApp listing is now verified live: https://findupapp.com/app/ios/6763234139. Do not submit again. AppBreakup remains pending with no reply/listing ID. AppAgg has three unsent correction drafts; do not send. TryMy.App verification remains absent. AppLauncher remains blocked by GitHub Pages hosting.
+- New free directory candidates prepared, not submitted: Valeri (https://valeri.tech/, first listing free after account/review) and Woodander Discover (https://woodander.com/discover/submit, free mobile-app listing with account/review). Indie App Catalog and StarterLaunch remain prepared and unsubmitted. NativeShelf requires a persistent badge; no badge added.
+- Reddit rules changed: r/study no longer offers the old weekly self-promo thread. r/iosapps and r/ProductivityApps require in-community karma before promotion. r/AIDevsBuilders is a possible builder-feedback route. Reddit remains unconnected; no posts made.
+- New creator lead: TikTok @nawafqur1 (Saudi Qudrat study-prep; third-party analytics estimate ~163K followers, ~1.8K average views, 3.3% engagement). No DM sent.
+- SEO: added related study-guide links to English and Arabic focus-timer landing pages and updated their sitemap lastmod to 2026-11-07. Latest GitHub Pages workflow was pending at last check; verify before claiming live. The bilingual procrastination guide is present in both language folders, homepages, guide indexes and sitemap.
+- App Store campaign links currently omit the provider token pt. Apple requires the generated pt alongside ct and mt=8 for campaign attribution; owner must copy the actual pt from App Store Connect before claiming campaign reporting.
+- US App Store snapshot shows one 1-star rating/review about session persistence. Owner reported the issue fixed Nov 5; prepare a public response in App Store Connect, but no App Store Connect write access is available here. Last owner-reported download count remains 21 on Nov 3; no newer verified count.
+- Canva has an existing one-page social design; no video job/status was available. Budget remains $0; no paid placement, metered browser automation, mass email, or bounced-address retry.
+- See the 2026-11-07 section in growth-log.md for exact copy, statuses and links.
