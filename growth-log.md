@@ -161,3 +161,47 @@ Creator DM draft for @faisaleducation (not sent):
 "أهلًا أستاذ فيصل، لاحظت محتواك عن القدرات والتحصيلي، وأعتقد أن جمهورك قد يستفيد من أداة بسيطة لتنظيم جلسات المذاكرة. أنا مطوّر Zenith، تطبيق مجاني للآيفون والآيباد يجمع مؤقّت تركيز مع Strict Mode وأصوات تركيز وحديقة افتراضية تنمو مع كل جلسة مكتملة. هل يناسبك أن أرسل لك رابطًا لتجربته؟ لا يوجد إعلان مدفوع أو التزام بالنشر؛ أبحث فقط عن رأيك الصريح، وإذا رأيت أنه مفيد يمكننا مناقشة مشاركة واحدة تناسب محتواك."
 
 No external directory form, Reddit post, Telegram DM or creator message was submitted in this run.
+
+
+## 2026-11-07 — Growth discovery and execution
+
+### Metricool audit and schedule repair
+- Reconfirmed the only connected Metricool brand is TikTok `@ayhie_12` (brand ID `7629124`, Asia/Riyadh). No Instagram brand is connected.
+- Fresh TikTok post analytics for 2026-10-24 through 2026-11-06: 16 rows, 2,091 views, 42 likes, 6 comments and 0 shares. The Oct 29 study-distraction hook remains strongest at 401 views, 11 likes and 4 comments. The Nov 5 “Can't focus in silence?” post had 108 views and 2 likes; the Nov 6 “one minute” phone-distraction post had 88 views and no likes/comments at query time. The Nov 7 Strict Mode carousel is confirmed PUBLISHED but was not yet present in the analytics export. These are reach metrics, not install attribution.
+- Audited the Nov 7–Dec 1 schedule: 19 rows total, including the Nov 7 published post and 18 pending posts through Nov 26. Found two posts scheduled for Nov 12 at 10:00. Rescheduled the later-created “Your Future Is Growing” post to Nov 19 at 18:00 Asia/Riyadh, preserving its copy and image. New Metricool ID: `419852948`; UUID unchanged: `-748126821397216291`. Rechecked: only one Nov 12 10:00 post remains and the Nov 19 18:00 post is pending. No new social posts were created.
+
+### Directory status and new free candidates
+- FindUpApp: discovered the existing public Zenith listing at https://findupapp.com/app/ios/6763234139 (registered Nov 5, 2026). Mark as LIVE; do not submit again.
+- Get Indie Apps: existing public listing remains live; do not resubmit.
+- AppBreakup: Nov 1 free standard submission remains unresolved. AgentMail search found no AppBreakup reply and no listing ID; do not resubmit.
+- AppAgg: three correction drafts are present (latest updated Nov 6). None was sent. Do not send without explicit approval.
+- TryMy.App: latest AgentMail search returned no verification email; do not retry registration or verification.
+- AppLauncher remains blocked by the GitHub Pages subdomain; do not retry or buy a domain.
+- Indie App Catalog: official form accepts indie apps available on the US App Store and shows no payment step. No exact Zenith listing surfaced in search. Not submitted because no permitted free form-interaction tool is available. Form: https://indieappcatalog.com/app/submit. Use the US App Store URL: https://apps.apple.com/us/app/zenith-focus-timer-plant/id6763234139.
+- StarterLaunch: official guidelines allow a free basic listing for a working app; sign-in is required and duplicate App Store products are not allowed. No exact Zenith listing surfaced. Not submitted. Form: https://starterlaunch.net/submit.
+- New candidate — Valeri: official site says the first indie-app listing is free after developer sign-up and human review; optional Pro/featured options are paid and excluded. No exact Zenith listing surfaced. Not submitted. Start at https://valeri.tech/.
+- New candidate — Woodander Discover: official submit page accepts mobile apps and offers a free reviewed listing with a category page and basic views/clicks; a free account is required. No exact Zenith listing surfaced. Not submitted. Form: https://woodander.com/discover/submit.
+- NativeShelf: free iOS listing still requires a persistent website badge. No badge was added. AgentMail search found no NativeShelf reply or verifiable sent record for the earlier eligibility inquiry; do not send a duplicate inquiry until the sent history is checked.
+- No paid placements, purchases, or metered browser automation were used.
+
+### Community and creator discovery
+- r/study: the old weekly self-promo-thread draft is no longer safe. A recent Oct 21, 2026 moderator/bot exchange says the megathread is no longer offered and promotional content may be removed. Do not post the old draft there.
+- r/iosapps: recent rule reminder says developers need 10 community karma, one promotion per 30 days, and either 20+ App Store ratings or a published Privacy Policy and Terms. The US App Store page currently shows only 1 rating (1.0), so this route is gated; no post made.
+- r/ProductivityApps: a recent community discussion confirms the 10-karma-within-the-community gate and monthly promotion limit. No post made.
+- r/AIDevsBuilders: a Reddit developer-platform page describes the community as explicitly welcoming build sharing and asks first-time posters to say what they built it with and one difficult part. Potential builder-feedback route, not a student acquisition channel. Reddit is not connected; no post made.
+- New creator lead: TikTok `@nawafqur1` publishes Saudi Qudrat study-prep content. A third-party profile snapshot updated in October 2026 showed about 163K followers, roughly 1.8K average views and 3.3% engagement; treat these as estimates, not first-party analytics. Profile: https://www.tiktok.com/@nawafqur1. No message sent; TikTok DMs are not connected.
+- No Telegram DMs, creator DMs, Reddit posts, or emails were sent in this run.
+
+### Website / SEO execution
+- Verified the bilingual “How to Stop Procrastinating and Start Studying” files exist in the English and Arabic guide folders, are linked from both homepages and guide directories, and are present in the sitemap. The Nov 5 GitHub Pages workflow for the previous content commit succeeded; direct public-page rendering remains unavailable to the browser fetch tool.
+- Made a new contextual internal-link improvement: added a “Free study guides for your next focus session” section to `focus-timer-app.html` and a localized Arabic section to `ar/focus-timer-app.html`. Both link to the procrastination, noisy-study-environment, and study-routine guides. Updated those two sitemap lastmod values to 2026-11-07.
+- Commits: English page `8069eec25d0e50415eb4a33674ea95192114e67e`; Arabic page `a3d8d0c805a3b75426124d3af54d5eb9d2978183`; sitemap `088c646dd4e428259cb1e0a447b8aea8c9d243fb`. The Pages workflow for the latest sitemap commit was still pending at the time of this log; verify success before calling these changes live.
+- App Store campaign-link audit: current website/guide links use `ct` and `mt=8` but omit Apple's provider token `pt`. Apple's official instructions require the generated provider token as well as the campaign token; do not claim these links provide reliable campaign attribution until the owner copies the real `pt` from App Store Connect. Official instructions: https://developer.apple.com/help/app-store-connect-analytics/acquisition/campaign-links.
+
+### Store conversion / review risk
+- Current public US App Store snapshot shows one 1-star rating and a review about a focus session being lost when the app closed. The owner reported the session-persistence issue fixed on Nov 5; no independent QA was performed in this marketing run. No new App Store Connect download count is available; 21 on Nov 3 remains the last owner-reported count.
+- Suggested App Store Connect reply (not posted): “Thanks for flagging this. We’re sorry your focus session was lost when the app closed. We’ve since fixed an issue affecting session persistence. Please update to the latest version and contact us through App Support if it happens again.”
+
+### Canva / inbox
+- Canva search found the existing one-page design “Zenith focus timer Instagram post” (updated Nov 5). No video-generation job ID or status result was available; do not claim a video was generated.
+- AgentMail still contains three unsent AppAgg correction drafts. No AppBreakup or TryMy.App reply/verification email was found. No broad outreach or mass email was sent.
