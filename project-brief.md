@@ -1,6 +1,6 @@
 # Zenith — Growth Project Brief
 
-Last updated: 2026-11-05
+Last updated: 2026-11-07
 Owner: Zenith app publisher
 Primary goal: reach the first 100 genuine App Store downloads, then build toward 10,000.
 Operating principle: maximize qualified installs and retained users per dollar and per hour; $0 paid budget for the current phase.
