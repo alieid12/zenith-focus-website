@@ -58,3 +58,20 @@ These are preparation links only; this pack does not mean any submission has bee
 
 ### Existing listing discovered
 - FindUpApp: Zenith is already live at https://findupapp.com/app/ios/6763234139 (registered Nov 5, 2026). Do not submit again.
+
+
+## AppScout
+- Status: no exact Zenith listing surfaced; not submitted. Official form says free submission, description max 80 characters, typical review 1–2 business days.
+- Form: https://www.appscout.co/submit/
+- Name: Zenith: Focus Timer & Plant
+- 80-character description: Focus timer for iPhone that grows a virtual garden with every session.
+- App Store: https://apps.apple.com/us/app/zenith-focus-timer-plant/id6763234139
+- Website: https://alieid12.github.io/zenith-focus-website/
+
+## The Useful Apps — blocked
+- Listing is free and no badge is required, but the official developer page requires an email on the app's own domain. No matching domain email is available while Zenith uses GitHub Pages. Do not use an unrelated address or buy a domain.
+- Rules: https://theusefulmedia.com/apps/developers/
+
+## TryMy.App — low priority
+- Official page currently states the free queue is 9 months or more; featured placement is $19 one-time. Keep pending verification untouched, do not pay, and do not retry registration.
+- https://trymy.app/

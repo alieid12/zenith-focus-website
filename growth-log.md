@@ -205,3 +205,10 @@ No external directory form, Reddit post, Telegram DM or creator message was subm
 ### Canva / inbox
 - Canva search found the existing one-page design “Zenith focus timer Instagram post” (updated Nov 5). No video-generation job ID or status result was available; do not claim a video was generated.
 - AgentMail still contains three unsent AppAgg correction drafts. No AppBreakup or TryMy.App reply/verification email was found. No broad outreach or mass email was sent.
+
+
+### 2026-11-07 follow-up — deployment and additional discovery
+- GitHub Pages workflow #42367328258 completed SUCCESS for main commit `857257fa88e97bf9d907589153e1e023b965daf0` at 11:17:33Z. The English/Arabic focus-timer landing-page internal-link improvements and sitemap lastmod updates are deployed by workflow. Direct public HTML rendering still could not be independently inspected with the browser fetch tool.
+- New directory candidate — AppScout: official form says free to submit, max 80-character description, and typical review in 1–2 business days. No exact Zenith listing surfaced. Not submitted because no permitted free form interaction is available. Form: https://www.appscout.co/submit/. Prepared 80-character copy: `Focus timer for iPhone that grows a virtual garden with every session.`
+- The Useful Apps: official developer page says listing is free, no badge is required, but submissions must use an email on the app's own domain. Zenith currently uses a GitHub Pages subdomain and no matching domain email is available; do not buy a domain or submit with an unrelated address. Info: https://theusefulmedia.com/apps/developers/.
+- TryMy.App's current official page says its free queue is 9 months or more; featured placement is $19. Keep the $0 constraint, do not pay, and do not retry the pending verification. https://trymy.app/.
