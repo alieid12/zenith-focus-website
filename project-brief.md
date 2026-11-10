@@ -96,3 +96,8 @@ Operating principle: maximize qualified installs and retained users per dollar a
 - The owner reported the session-persistence issue fixed on Nov 5, but this has not been independently QA-tested here. No public review reply was posted.
 - Reddit: r/SideProject is a possible builder-feedback route but live rules need checking; r/iOSApps currently has a 25-community-karma gate and ABC developer post format. Reddit remains unconnected; no posts or comments were made.
 - SEO guide indexing remains UNKNOWN: recent search queries did not surface the specific guide URLs, but this is not proof they are unindexed. Google Search Console inspection is required.
+
+
+## Website quality fix — 2026-11-10
+- Fixed five literal escaped newline sequences before Open Graph/Twitter metadata in `focus-timer-app.html`; these could cause social-preview metadata to be parsed outside the document head. Updated its sitemap lastmod to 2026-11-10.
+- Audited eight key English/Arabic homepage, focus-timer, focus-timer-app and guide-index files; no other literal backslash-n sequences were found. Deployment verification is pending.
