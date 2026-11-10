@@ -250,3 +250,20 @@ No external directory form, Reddit post, Telegram DM or creator message was subm
 3. Produce a short, authentic product walkthrough for the next open posting window after the existing queue; do not claim video production or publication until confirmed.
 4. Obtain a fresh App Store Connect download/product-page report from the owner when available; keep 21 as historical baseline only.
 5. Continue conversion QA and monitor the session-persistence issue without soliciting or manipulating reviews.
+
+
+## 2026-11-10 — Storefront and community risk follow-up
+
+### US App Store conversion risk
+- The indexed US App Store page still reports version 3.0.1, 1.0/5 from one rating, and the Sep 10 review “Turns off and loses the session,” describing session loss when the app naturally closes: https://apps.apple.com/us/app/zenith-focus-timer-plant/id6763234139.
+- Malaysia and Ireland App Store snapshots show version 3.0.2 with stability/performance improvements and bug fixes. This is a storefront/index discrepancy, not proof that 3.0.2 is unavailable in the US. Check territory availability and version propagation in App Store Connect before materially scaling US traffic.
+- The US description currently includes “Anyone managing ADHD.” Avoid this condition-related positioning in future promotional copy; prefer “people building better focus habits” unless the owner has reviewed the claim and supporting compliance requirements.
+- Owner reported the persistence issue fixed on Nov 5, but no independent app QA was performed. Suggested public response remains a draft only; App Store Connect access is unavailable. Do not claim a response was posted.
+
+### Community distribution
+- Current Reddit research found r/SideProject as a potential builder-feedback channel, but third-party rule summaries conflict; read the live subreddit rules and recent moderator posts on the day of any submission. No post was made.
+- A moderator update in r/iOSApps raised the developer community-karma threshold to 25 and requires the ABC format (Answer, Better, Cost); the app is not ready for that channel based on available account/community information. No post was made.
+- Reddit remains unconnected; no comments, posts or DMs were sent.
+
+### SEO indexing
+- Search-engine queries did not surface the specific Zenith guide URLs in the returned results. This does not prove they are unindexed; Search Console URL inspection remains the reliable next check. Indexing status remains UNKNOWN.
