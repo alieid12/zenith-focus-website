@@ -77,3 +77,14 @@ Operating principle: maximize qualified installs and retained users per dollar a
 - US App Store snapshot shows one 1-star rating/review about session persistence. Owner reported the issue fixed Nov 5; prepare a public response in App Store Connect, but no App Store Connect write access is available here. Last owner-reported download count remains 21 on Nov 3; no newer verified count.
 - Canva has an existing one-page social design; no video job/status was available. Budget remains $0; no paid placement, metered browser automation, mass email, or bounced-address retry.
 - See the 2026-11-07 section in growth-log.md for exact copy, statuses and links.
+
+
+## Current state — 2026-11-10
+- Mission: 10,000 genuine downloads; first operational milestone remains 100. $0 marketing budget, organic-only.
+- Last download count is still 21, owner-reported on 2026-11-03. No App Store Connect access or newer verified install count was available on Nov 10; do not treat TikTok views or directory submissions as downloads.
+- Metricool TikTok analytics for Nov 1–9: 13 post rows, 1,476 views, 51 likes, 12 comments, 0 shares. Watch time, completion rate, reach and traffic-source fields were null. Two Nov 10 posts are confirmed published; their analytics have not yet ingested. Thirteen future posts remain pending through Nov 24. Do not add near-duplicate posts before reviewing results.
+- Free directory presence verified: FindUpApp (https://findupapp.com/app/ios/6763234139), Get Indie Apps (https://getindieapps.com/app/zenith-focus-timer-and-plant), and Indie Apps (https://indie-apps.com/apps/zenith-focus-timer-plant-234139). AsioLaunch free submission completed Nov 10; expected review/scheduling within about 7 days; public listing URL not yet provided.
+- Current public App Store snapshots in Malaysia and Ireland show version 3.0.2 and stability/performance fixes. The session-persistence issue was owner-reported fixed; independent QA remains unavailable. A third-party tracker reports 1.0/5 from one rating, a low-sample signal that should not be treated as representative.
+- AgentMail inbox audit returned 9 threads, including multiple bounce notices; no positive new partner response was found. Avoid duplicate outreach and bounced addresses.
+- No new public posts, emails, DMs or community comments were sent in this run. No paid placements or advertising were purchased. TinyFish reported wallet credits declining from $2.78 to $2.44 during browser tasks; do not use further metered browser automation without explicit approval.
+- Next: verify AsioLaunch publication, measure the current TikTok queue, create a genuine app walkthrough for the next open slot, and obtain a fresh App Store Connect report.
