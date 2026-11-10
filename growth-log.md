@@ -267,3 +267,11 @@ No external directory form, Reddit post, Telegram DM or creator message was subm
 
 ### SEO indexing
 - Search-engine queries did not surface the specific Zenith guide URLs in the returned results. This does not prove they are unindexed; Search Console URL inspection remains the reliable next check. Indexing status remains UNKNOWN.
+
+
+## 2026-11-10 — Website metadata repair
+- Audited the English and Arabic homepage, focus-timer, focus-timer-app and guide-index HTML files for malformed literal escape sequences in document heads.
+- Found five literal `\\n` sequences in `focus-timer-app.html` immediately before Open Graph and Twitter metadata tags. Replaced them with real newlines so metadata remains correctly parsed in the document head.
+- Confirmed the corresponding Arabic page and the other seven checked pages had no literal backslash-n sequences.
+- Updated the English focus-timer-app sitemap lastmod to 2026-11-10. Arabic page lastmod was not changed.
+- GitHub Pages deployment must be checked before calling this live. No changes were made to page copy or app functionality.
