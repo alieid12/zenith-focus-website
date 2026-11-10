@@ -212,3 +212,41 @@ No external directory form, Reddit post, Telegram DM or creator message was subm
 - New directory candidate — AppScout: official form says free to submit, max 80-character description, and typical review in 1–2 business days. No exact Zenith listing surfaced. Not submitted because no permitted free form interaction is available. Form: https://www.appscout.co/submit/. Prepared 80-character copy: `Focus timer for iPhone that grows a virtual garden with every session.`
 - The Useful Apps: official developer page says listing is free, no badge is required, but submissions must use an email on the app's own domain. Zenith currently uses a GitHub Pages subdomain and no matching domain email is available; do not buy a domain or submit with an unrelated address. Info: https://theusefulmedia.com/apps/developers/.
 - TryMy.App's current official page says its free queue is 9 months or more; featured placement is $19. Keep the $0 constraint, do not pay, and do not retry the pending verification. https://trymy.app/.
+
+
+## 2026-11-10 — Growth execution
+
+### Fresh TikTok measurement
+- Rechecked Metricool brand `@ayhie_12` (brand ID `7629124`, Asia/Riyadh).
+- Confirmed the Nov 10 10:00 and 18:00 posts are PUBLISHED:
+  - https://www.tiktok.com/@ayhie_12/video/7706434555229523207
+  - https://www.tiktok.com/@ayhie_12/video/7706558776568040725
+- Current schedule snapshot contains 13 future pending posts through Nov 24. No new post was added; preserve the existing queue until post-level results mature.
+- Retrieved post-level analytics for Nov 1–9: 13 rows, 1,476 views, 51 likes, 12 comments, 0 shares. Watch time, completion rate, reach and traffic-source fields were null in the returned rows. Nov 10 posts have not yet appeared in the analytics export.
+- These are attention metrics only. No App Store click-to-install attribution or verified download change was available. The last owner-reported download baseline remains 21 on Nov 3.
+- Decision: do not add more static/carousel posts immediately. Next creative test should be a genuine app walkthrough showing the timer → Strict Mode → garden loop, with a single clear first-session CTA. Current queue is already populated through Nov 24.
+
+### Directory verification and submissions
+- FindUpApp: existing free listing verified at https://findupapp.com/app/ios/6763234139. Do not resubmit.
+- Get Indie Apps: existing free listing verified at https://getindieapps.com/app/zenith-focus-timer-and-plant. Submission form returned “Already listed”; no payment or featured option selected.
+- Indie Apps: existing free listing verified at https://indie-apps.com/apps/zenith-focus-timer-plant-234139. No paid placement, badge or backlink requirement added.
+- AsioLaunch: free $0 submission completed successfully on Nov 10. Product: “Zenith: Focus Timer Plant”; category Productivity; tagline “Focus Timer with a Growing Virtual Garden.” Confirmation says it will be reviewed and scheduled within about 7 days. No public listing URL was provided yet; check the daily launch board/news after scheduling. No paid add-ons or featured slot selected.
+- These three live directory listings plus the AsioLaunch submission are distribution surfaces, not evidence of downloads.
+
+### App Store / conversion watch
+- Public Malaysia and Ireland App Store snapshots show version 3.0.2 with recent stability/performance improvements and bug fixes; the Malaysia listing says the rating overview is unavailable due to insufficient ratings. A third-party tracker still reports 1.0/5 from one rating, so treat the review signal as a low-sample trust risk, not a representative rating.
+- Owner previously reported the session-persistence issue fixed. No independent QA or App Store Connect analytics access was available in this run.
+- Do not scale traffic aggressively based on a single third-party rating; keep monitoring current reviews and session reliability.
+
+### Outreach and tool boundaries
+- AgentMail inbox audit returned 9 threads, including multiple delivery-failure notices; no positive new partner response was identified. Do not retry bounced addresses or duplicate prior outreach.
+- No email, DM, Reddit post, creator message or public community comment was sent in this run.
+- Three directory checks/submissions used TinyFish browser automation. Its reported wallet balance moved from $2.78 to $2.44 during these runs (approximately $0.34 in tool credits); no top-up, ad spend or paid listing was made. Avoid further metered browser automation unless the user explicitly approves that tool cost.
+- Cash marketing budget remains $0. No paid promotion or directory placement purchased.
+
+### Next actions
+1. Recheck AsioLaunch in 3–7 days for the public scheduled listing and then record its URL.
+2. Review Nov 10–14 TikTok post analytics after ingestion; compare views, likes, comments and shares at similar post ages.
+3. Produce a short, authentic product walkthrough for the next open posting window after the existing queue; do not claim video production or publication until confirmed.
+4. Obtain a fresh App Store Connect download/product-page report from the owner when available; keep 21 as historical baseline only.
+5. Continue conversion QA and monitor the session-persistence issue without soliciting or manipulating reviews.
