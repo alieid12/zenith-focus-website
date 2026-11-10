@@ -88,3 +88,11 @@ Operating principle: maximize qualified installs and retained users per dollar a
 - AgentMail inbox audit returned 9 threads, including multiple bounce notices; no positive new partner response was found. Avoid duplicate outreach and bounced addresses.
 - No new public posts, emails, DMs or community comments were sent in this run. No paid placements or advertising were purchased. TinyFish reported wallet credits declining from $2.78 to $2.44 during browser tasks; do not use further metered browser automation without explicit approval.
 - Next: verify AsioLaunch publication, measure the current TikTok queue, create a genuine app walkthrough for the next open slot, and obtain a fresh App Store Connect report.
+
+
+## Storefront risk — 2026-11-10
+- The indexed US App Store page currently shows version 3.0.1, 1.0/5 from one rating, and the Sep 10 session-loss complaint. Malaysia and Ireland snapshots show 3.0.2 with stability improvements. Treat this as a storefront/index discrepancy until App Store Connect confirms territory availability; verify US version propagation before scaling US acquisition.
+- The US description contains “Anyone managing ADHD.” Avoid condition-related promotional positioning; use general focus-habit language.
+- The owner reported the session-persistence issue fixed on Nov 5, but this has not been independently QA-tested here. No public review reply was posted.
+- Reddit: r/SideProject is a possible builder-feedback route but live rules need checking; r/iOSApps currently has a 25-community-karma gate and ABC developer post format. Reddit remains unconnected; no posts or comments were made.
+- SEO guide indexing remains UNKNOWN: recent search queries did not surface the specific guide URLs, but this is not proof they are unindexed. Google Search Console inspection is required.
