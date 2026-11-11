@@ -291,3 +291,17 @@ No external directory form, Reddit post, Telegram DM or creator message was subm
 - Reddit https://www.reddit.com/r/SideProject/ blocked by “Prove your humanity” reCAPTCHA. No challenge solved, post or comment made. Browser tab retained for owner handoff.
 - No outreach messages sent. No partnership, newsletter placement, new directory acceptance or verified additional downloads claimed.
 - Next executable distribution work: clear Reddit human verification with owner, inspect live rules and account eligibility, then publish a disclosed useful resource only where permitted; pursue remaining free directory candidates without duplicating past submissions. Retrieve app-specific acquisition analytics and provider-token campaign links before claiming attribution.
+
+## 2026-11-11 — Reddit launch with owner authorization
+
+- Owner explicitly requested community posts inviting people to try Zenith and leave honest reviews, and supplied eight current screenshots.
+- Browser confirmed signed-in Reddit account u/zenith1255; previous human-verification gate cleared by owner.
+- Published a disclosed developer introduction in r/SideProject, whose visible community description welcomes sharing side projects for constructive feedback. Composer offered text/video but no image-upload control.
+- Verified post in the community feed and Reddit's “Posted!” notice:
+  https://www.reddit.com/r/SideProject/comments/1xtoino/i_built_zenith_a_focus_timer_where_your_study/
+- Title: I built Zenith: a focus timer where your study sessions grow a virtual garden
+- Body describes the focus/garden loop, coins, plants, focus sounds, strict focus, goals and stats. Explicitly discloses ads and optional rewarded video; includes https://apps.apple.com/app/id6763234139 and asks for honest feedback and optional honest App Store review without rating expectations or incentives.
+- Initial observed state: 1 point (automatic author vote) and 0 comments. Do not interpret this as independent engagement. Views, clicks and downloads attributable to this post: UNKNOWN.
+- No screenshots uploaded. Three supplied screenshots were selected for upload preparation, but authorized file-transfer helper downloads failed; no success claimed. Image attachment remains incomplete.
+- Further distribution blocked: attempts to navigate to r/ProductivityHQ repeatedly timed out without changing the page. Native Chrome fallback returned “Computer Use permissions are not granted.” No posts in other communities, no duplicate retries of publication, no rate-limit evasion.
+- Next: restore browser navigation/file transfer; inspect current community rules and account eligibility before additional posts. Keep distinct posts relevant and respect community limits.
