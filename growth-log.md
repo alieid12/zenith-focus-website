@@ -275,3 +275,19 @@ No external directory form, Reddit post, Telegram DM or creator message was subm
 - Confirmed the corresponding Arabic page and the other seven checked pages had no literal backslash-n sequences.
 - Updated the English focus-timer-app sitemap lastmod to 2026-11-10. Arabic page lastmod was not changed.
 - GitHub Pages deployment must be checked before calling this live. No changes were made to page copy or app functionality.
+
+## 2026-11-11 — Acquisition only, zero budget
+
+- Scope: no application code, functionality, AdMob integration, builds or App Store listing changes. No TikTok, Instagram, paid ads or metered browser automation.
+- Verified first-party baseline in the authenticated App Store Connect Trends overview: Zenith (6763234139) has 5 App Units for October 9–November 8, 2026. Apple shows a reporting-delay notice. This is a historical metric, not lifetime downloads or installs caused by this run. New downloads attributable to this run: UNKNOWN; none verified.
+- Search Console via connected property: requested October 14–November 10; returned October 21–November 9. Sum: 7 impressions and 0 clicks. Not website visits or app installs.
+- Published free printable student resource: https://alieid12.github.io/zenith-focus-website/7-day-focus-challenge.html . Includes seven daily tasks, printable tracker, group invitation, links to existing guides and optional App Store download CTA. No signup, data collection or saved progress. Linked from homepage resources and added to sitemap.
+- Prepublication checks: seven daily items, print stylesheet and correct app ID present. Live browser verified page title, all seven days, tracker, guide links and App Store destination. Print dialog itself not tested. New page traffic and resulting installs: UNKNOWN.
+- Commits: resource 1b542b311dbd7b1883a452e693ae59e57e796941; homepage 96536d7ae2b838e1c45db1570bc6cc17adf7703f; sitemap f6c765733bcfd9d83e357ab3f936e46894527155.
+- Deduplication: previous log already confirms Indie Apps, FindUpApp and Get Indie Apps listings; no resubmissions. AsioLaunch remains pending from November 10; no new acceptance verified.
+- AppScout live form https://www.appscout.co/submit/ now charges $1.99/month and requires payment; rejected for zero-budget scope. Older free descriptions are stale.
+- https://ios.ubitools.com/submit requires open-source iOS app repository; ineligible for marketing-website-only submission. No app code disclosed.
+- AppSafari https://appsafari.com/submit/ has no usable submission fields in current rendered page and states submission accepts terms; no submission made.
+- Reddit https://www.reddit.com/r/SideProject/ blocked by “Prove your humanity” reCAPTCHA. No challenge solved, post or comment made. Browser tab retained for owner handoff.
+- No outreach messages sent. No partnership, newsletter placement, new directory acceptance or verified additional downloads claimed.
+- Next executable distribution work: clear Reddit human verification with owner, inspect live rules and account eligibility, then publish a disclosed useful resource only where permitted; pursue remaining free directory candidates without duplicating past submissions. Retrieve app-specific acquisition analytics and provider-token campaign links before claiming attribution.
