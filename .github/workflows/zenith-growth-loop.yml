@@ -1,0 +1,98 @@
+name: Zenith Growth Loop
+
+on:
+  workflow_dispatch:
+    inputs:
+      cycle:
+        description: "Current cycle (1-3). Leave at 1 to start a new bounded chain."
+        required: false
+        default: "1"
+        type: string
+      enable_restart:
+        description: "Automatically queue the next cycle after this one completes (maximum 3 cycles total)."
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "17 */6 * * *"
+
+# Serialize runs. A self-dispatched next cycle waits until the current run exits.
+concurrency:
+  group: zenith-growth-controller
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  health-check:
+    name: Check Zenith public surfaces
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run read-only growth health check
+        env:
+          ZENITH_CYCLE: ${{ github.event.inputs.cycle || '1' }}
+        run: python .github/zenith-growth/health_check.py
+
+      - name: Add report to workflow summary
+        if: always()
+        run: |
+          if [ -f growth-report.md ]; then
+            cat growth-report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Health check did not produce a report." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: zenith-growth-report-${{ github.run_id }}
+          path: |
+            growth-report.md
+            growth-report.json
+          if-no-files-found: warn
+          retention-days: 30
+
+  restart:
+    name: Queue next bounded cycle
+    needs: health-check
+    if: >-
+      ${{ success()
+          && github.event_name == 'workflow_dispatch'
+          && github.event.inputs.enable_restart == 'true'
+          && fromJSON(github.event.inputs.cycle || '1') < 3 }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Queue next cycle
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const current = Number(context.payload.inputs?.cycle || "1");
+            const next = current + 1;
+            if (!Number.isInteger(current) || current < 1 || current >= 3) {
+              core.info("Restart cap reached; no further run will be queued.");
+              return;
+            }
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: "zenith-growth-loop.yml",
+              ref: context.payload.ref || "main",
+              inputs: {
+                cycle: String(next),
+                enable_restart: "true"
+              }
+            });
+            core.notice(`Queued bounded cycle ${next}/3. The concurrency rule prevents overlap.`);
